@@ -43,7 +43,7 @@
 
 .nav__links {
   /* Restablece los estilos predeterminados de list aquí */
-  list-style-type: style none;
+  list-style-type: none;
   display: flex;
   column-gap: 20px;
   margin: 8px 0 0;
