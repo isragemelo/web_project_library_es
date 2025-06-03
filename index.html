@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <!-- Envuelve todo el contenido de la página en un nuevo div con la clase page Recuerda agregar la etiqueta de cierre -->
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- Se supone que poner enlaces de navegación en una lista es la mejor práctica para escribir el código semántico, ya que permite a los lectores de pantalla hacer una pausa entre cada enlace en lugar de leer todos los enlaces como una oración. -->
+          <ul class="nav__links">
+            <li class="nav__item">
+              <a class="nav__link" href="#staff">LIBROS DE HARRY POTTER</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#events">Eventos</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#membership">Conviértete en miembro</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#contact">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Hola, esta es Bienvenidos a la biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
+              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
+              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+              estudiantes!
+            </p>
+          </div>
+          <!-- -------------------------------------------------------------------- -->
+          <!--       No descomentar hasta la sección 2.3 de la etapa 1 del brief         -->
+          <!-- -------------------------------------------------------------------- -->
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">
+            Triple Peaks, 200 Success Avenue (HECHO POR ISRAGEMELO =D)
+          </p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="staff" id="staff">
+          <!-- --------------------------------------------------------------- -->
+          <!--        No descomentar hasta la etapa final del proyecto.            -->
+          <!-- --------------------------------------------------------------- -->
+          <h2 class="staff__title">LIBROS DE HARRY POTTER</h2>
+          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Harry Potter y la piedra filosofal</h3>
+                <p class="card__text">
+                  Harry Potter, un niño huérfano, descubre en su undécimo
+                  cumpleaños que es un mago. Se dirige a la escuela de magia de
+                  Hogwarts, donde hace nuevos amigos, enfrenta desafíos y
+                  descubre secretos sobre su misterioso pasado.
+                </p>
+                <p class="card__footer">J.K. Rowling</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Harry Potter y la cámara secreta</h3>
+                <p class="card__text">
+                  En su segundo año en Hogwarts, Harry descubre que una cámara
+                  secreta ha sido abierta, desatando una serie de ataques
+                  misteriosos a los estudiantes. Junto a sus amigos Ron y
+                  Hermione, se enfrenta a nuevos peligros y descubre la verdad
+                  detrás de los ataques.
+                </p>
+                <p class="card__footer">J.K. Rowling</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  Harry Potter y el prisionero de Azkaban
+                </h3>
+                <p class="card__text">
+                  Harry regresa a Hogwarts para su tercer año, donde se entera
+                  de que Sirius Black, un peligroso prisionero de Azkaban, ha
+                  escapado y está tras su rastro. Durante el año, Harry descubre
+                  más sobre su familia y enfrenta nuevos desafíos.
+                </p>
+                <p class="card__footer">J.K. Rowling</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Harry Potter y el cáliz de fuego</h3>
+                <p class="card__text">
+                  En su cuarto año en Hogwarts, Harry es inesperadamente elegido
+                  para participar en el Torneo de los Tres Magos, una
+                  competencia peligrosa entre tres escuelas de magia. A lo largo
+                  del torneo, enfrenta desafíos y se encuentra con fuerzas
+                  oscuras mucho más grandes de lo que imaginaba.
+                </p>
+                <p class="card__footer">J.K. Rowling</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
