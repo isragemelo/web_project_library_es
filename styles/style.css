@@ -150,8 +150,9 @@
   flex-wrap: wrap;
   max-width: 760px;
   margin-top: 68px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 40px;
   grid-template-columns: auto auto auto;
   gap: 40px;
   padding-left: 0;
