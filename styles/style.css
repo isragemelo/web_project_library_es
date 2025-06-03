@@ -2,7 +2,7 @@
   /* Agrega las propiedades de la clase page aquí */
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 16px;
-  height: 20px;
+  line-height: 20px;
   display: flex;
   flex-direction: column;
   max-width: 1600px;
@@ -37,20 +37,21 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: nowrap;
-  width: 80px;
-  height: 58px;
+  width: 58px;
+  height: 80px;
 }
 
 .nav__links {
   /* Restablece los estilos predeterminados de list aquí */
-  list-style: none;
+  list-style-type: style none;
   display: flex;
-  gap: 20px;
+  column-gap: 20px;
   margin: 8px 0 0;
   font-size: 18px;
   text-decoration: none;
   color: #10191e;
   margin-right: 20px;
+  padding-left: 0;
 }
 
 .nav__link {
@@ -74,12 +75,14 @@
   line-height: 76px;
   font-weight: 500;
   max-width: 635px;
+  margin-top: 128px;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
   max-width: 515px;
+  margin-top: 32px;
 }
 
 .header__image {
@@ -146,11 +149,13 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 760px;
-  margin: 0 40px 0;
+  margin-top: 68px;
+  margin-left: 40px;
+  margin-right: 40px;
   grid-template-columns: auto auto auto;
   gap: 40px;
   padding-left: 0;
-  list-style: none;
+  list-style-type: none;
 }
 
 /* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
